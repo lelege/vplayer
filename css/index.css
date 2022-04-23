@@ -1,0 +1,308 @@
+/*搜索框样式代码*/
+
+div.search {
+    top: 66px;
+    position: relative;
+}
+
+form {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.le input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: 2px solid #7BA7AB;
+    border-radius: 20px;
+    outline: none;
+    background: #F9F0DA;
+    color: #9E9C9C;
+    box-sizing: border-box;
+}
+
+.le button {
+    top:0px;
+    position: absolute;
+    right: 0px;
+    width: 36px;
+    height: 35px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.le button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+/*自定义按钮样式*/
+body {
+    line-height: 1.6;
+    color: rgba(0, 0, 0, .85);
+}
+
+a,
+body {
+    color: #333;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+blockquote,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    padding: 0;
+    list-style: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.layui-timeline {
+    padding-left: 5px
+}
+
+.layui-timeline-item {
+    padding-bottom: 0px;
+}
+
+.layui-timeline-item:last-child:before {
+    display: none
+}
+
+.layui-timeline-item:before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    z-index: 0;
+    width: 1px;
+    height: 100%
+}
+
+.layui-timeline-item:first-child:before {
+    display: block
+}
+
+.layui-timeline-item:before {
+    background-color: #eee
+}
+
+.layui-timeline-axis {
+    position: absolute;
+    left: -5px;
+    top: 0;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    color: #5FB878;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer
+}
+
+.layui-icon {
+    font-family: layui-icon !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.layui-timeline-content {
+    padding-left: 10px
+}
+
+.layui-text {
+    line-height: 1.6;
+    font-size: 14px;
+    color: #666
+}
+
+.layui-timeline-title {
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 22px
+}
+
+
+
+.col-xs-2 {
+    width: 18%;
+    float: left;
+    padding: 0% 1% 0% 1%;
+}
+
+.img-pic,
+.star-pic,
+.vod-detail-thumb {
+    display: list-item;
+    position: relative;
+}
+
+.pic60,
+.slide-pic60 {
+    padding-top: 50% !important;
+}
+
+.img-pic.thumb img,
+.vod-detail-thumb.thumb img {
+    object-position: 50% 50%;
+}
+
+.img-pic img,
+.star-pic img,
+.vod-detail-thumb img {
+    position: absolute;
+    left: 1;
+    top: 0;
+    box-shadow: 0 4px 10px rgb(51 51 51 / 20%);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center top;
+    background: #f3f3f3;
+    transition: all 2s;
+}
+
+img:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+}
+
+.img-list .vtitle,
+.star-hot-pic .vtitle {
+    position: absolute;
+    display: inline-block;
+    line-height: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+    padding: 2px 8px;
+    font-size: 12px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 13px 0 13px 0;
+}
+
+.cont {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 40px;
+}
+
+.layui-form-item {
+    margin-bottom: -15px;
+}
+
+.layui-elem-field legend {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*单选框样式兼容*/
+.layui-form-radio {
+    margin: 0px 0px 0px 0px;
+    padding-right: 0px;
+}
+
+.layui-input-block {
+    margin-left: 0px;
+    min-height: 40px;
+}
+
+.layui-flow-more {
+    clear: both;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.vid-wrap video{
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 720px;
+}
+
+
+.layui-btn {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.layui-form-radio>i {
+    margin-right: 0px;
+    font-size: 15px;
+}
+
+.layui-btn-primary:hover {
+background-color: #7BA7AB;
+}
+
+.layui-layer-loading .layui-layer-loading1 {
+    background: url(https://aejson.gitee.io/vplayer/js/css/modules/layer/default/loading-1.gif) no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+/*自适应修改*/
+@media screen and (max-width: 900px) {
+    .col-xs-2 {
+        width: 48%;
+        float: right;
+        padding: 0% 1% 0% 1%;
+    }
+
+    form {
+        width: 70%;
+        margin-top: -100px;
+    }
+
+    .vid-wrap{
+        width:100%;
+        position:relative;
+        padding-bottom:56.25%;    /*需要用padding来维持16:9比例,也就是9除以16*/
+        height: 0;
+    }
+
+    .vid-wrap video{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
